@@ -3,7 +3,7 @@
 const app = require('express')();
 
 app.use(function(req, res, next) {
-  res.status(200).json({message: 'Api working'});
+  res.status(200).json({message: 'Api development working'});
 });
 
 app.listen(3000, function() {
