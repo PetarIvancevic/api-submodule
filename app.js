@@ -3,6 +3,7 @@
 const app = require('express')();
 
 app.use(function(req, res, next) {
+  console.log('Logging a message');
   res.status(200).json({message: 'Api working'});
 });
 
