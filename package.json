@@ -1,0 +1,14 @@
+{
+  "name": "api-submodule",
+  "version": "1.0.0",
+  "description": "This is the api submodule.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Petar <petar.ivancevic171@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
